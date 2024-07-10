@@ -1,7 +1,7 @@
 <%
-	int i=Integer.parseInt(request.getParameter("f"));
+	int i=Integer.parseInt(request.getParameter("fno"));
 
-	int j =Integer.parseInt(request.getParameter("s"));
+	int j =Integer.parseInt(request.getParameter("sno"));
 	
 	int r=i+j;
 	
